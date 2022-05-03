@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+svg.react-calendar-heatmap {
+    width: 400px;
+    margin: 50px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.color-scale-0 {
+    fill: rgba(30, 143, 255, 0.697);
+}
+
+.color-scale-1 {
+    fill: #ffbf00ae;
+}
+
+.color-scale-2 {
+    fill: rgba(64, 255, 0, 0.526);
 }
